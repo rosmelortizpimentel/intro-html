@@ -10,6 +10,76 @@
         <fieldset>
         <legend><b>Formularios</b></legend>
             
+            <form>
+
+                <fieldset>
+                    <legend><b>Información Personal</b></legend>
+                    <label for="nombre">Nombres:</label><br>
+                    <input type="text" name="nombre" size="50" placeholder="Ingrese sus nombres"><br>
+                    <label for="apellido">Apellidos:</label><br>
+                    <input type="text" name="apellido" size="50" placeholder="Ingrese sus apellidos"><br>
+                    <label>Dispositivos:</label><br>
+                    <input type="checkbox" name="dispositivo12 value="laptop">Laptop
+                    <input type="checkbox" name="dispositivo1" value="tablet">Tablet<br>
+
+                </fieldset>
+                <fieldset>
+                    <legend><b>Selecione su género</b></legend>
+                    <input type="radio" name="genero" value="H" checked/>Hombre
+                    <input type="radio" name="genero" value="M"/>Mujer
+                </fieldset>
+                <br/>
+                <input type="submit" value="Enviar">
+                <button type="submit">Enviar</button>
+
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    Usuario<br>
+                    <input type="text"><br/>
+                    Contraseña<br>
+                    <input type="password"><br/>
+                    Selecciona un color:
+                    <input type="color"><br>
+                    <br><br>
+
+                    Email<input type="email"><br/>
+                    Fecha de Vuelo<input type="date"><br/>
+                    Hora de Vuelo <input type="time"><br/>
+                    Numero Vuelo<input type="number"><br/>
+                    Pasaporte <input type="file"><br/>
+                    Califícanos <input type="range"><br/>
+                    Semana de retorno <input type="week"><br/>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </fieldset>
+                
+            </form>
+            <form>
+                <fieldset>
+                    Selecione Aerolinea:<br>
+                    <select>
+                        <option value="mexico">Aerolínea de Mexico</option>
+                        <option selected value="peru">Aerolínea de Perú</option>
+                        <option value="canada">Canada Airlines</option>
+                    </select>
+                    <br>
+                    Comentario:<br>
+                    <textarea name="opinion" cols="30", rows="2"></textarea><br>
+                    Selecione Aerolinea:<br>
+                    <input list="aerolineas"/>
+                    <datalist id="aerolineas"> 
+                        <select> 
+                            <option value="mexico">Aerolínea de Mexico</option>
+                            <option value="peru">Aerolínea de Perú</option>
+                            <option value="canada">Canada Airlines</option>
+                        </select>
+                    </datalist>
+
+                </fieldset>
+            </form>
+
         </fieldset>
            
 
